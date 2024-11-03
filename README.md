@@ -1,1 +1,2 @@
-# Prototype
+Prototype
+This is a simple prototype made to test out what I’ve learned using the Godot Engine. It’s an offline game with a few interesting mechanics that I’m experimenting with to get more familiar with Godot and game engines.
