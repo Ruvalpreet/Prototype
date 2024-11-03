@@ -1,3 +1,10 @@
-[gd_scene format=3 uid="uid://c2rscmm41snjh"]
+[gd_scene load_steps=3 format=3 uid="uid://c2rscmm41snjh"]
+
+[ext_resource type="PackedScene" uid="uid://loxpfwiwctgy" path="res://Scenes/Setup/SrroundingMesh/land.tscn" id="1_lgpxc"]
+[ext_resource type="PackedScene" uid="uid://c8l66kn8i8s1q" path="res://Scenes/Setup/Player/player.tscn" id="2_d2iu4"]
 
 [node name="Setup" type="Node3D"]
+
+[node name="Land" parent="." instance=ExtResource("1_lgpxc")]
+
+[node name="Player" parent="." instance=ExtResource("2_d2iu4")]

@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://loxpfwiwctgy"]
+[gd_scene load_steps=2 format=3 uid="uid://loxpfwiwctgy"]
+
+[ext_resource type="PackedScene" uid="uid://dfu2ttk1wyx8c" path="res://Scenes/Setup/SrroundingMesh/ground.tscn" id="1_fbf02"]
 
 [node name="Land" type="Node3D"]
+
+[node name="Ground" parent="." instance=ExtResource("1_fbf02")]
